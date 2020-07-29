@@ -6,7 +6,7 @@
                 вашего бизнеса</div>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <img src="/assets/img/list.png" alt="" class="list" @click="openSlide">
+            <img src="./assets/img/list.png" alt="" class="list" @click="openSlide">
         </div>
         <div class="text">
             <h3>Автоматизируйте свой рабочий процесс вместе с нами</h3><br>
@@ -49,7 +49,7 @@
     .container {
         max-width: 414px;
         height: 194px;
-        background-image: url(/assets/mobail/mb2.png);
+        background-image: url(./assets/img/mb2.png);
         display: flex;
         flex-direction: column;
         align-items: center;

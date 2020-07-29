@@ -96,7 +96,7 @@
                 </div>
             </div>
         <div class="block-three">
-           <img src="/assets/img/big-robot.png" alt="">
+           <img src="./assets/img/big-robot.png" alt="">
         </div>
     </div>
 </template>
@@ -231,7 +231,7 @@
     }
 
     .main {
-        background-image: url(/assets/img/bg-robot.png);
+        background-image: url(./assets/img/bg-robot.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

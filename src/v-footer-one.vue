@@ -19,7 +19,7 @@
                    placeholder="Расскажите о вашем проекте:" class="input">
 
             <div class="input__wrapper">
-                <img src="/assets/img/skrepca.png">
+                <img src="./assets/img/skrepca.png">
                 <input name="file" id="file" type="file" @change="processFile($event)">
                 <label for="file">выберите файл</label>
             </div>

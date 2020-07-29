@@ -7,9 +7,9 @@
             <h1 class="animate__animated animate__bounceInUp">-Услуги по digital разработке</h1>
         </div>
         <div class="romb-3">
-            <img src="/assets/img/romb1.png" alt="">
-            <img src="/assets/img/romb2.png" alt="">
-            <img src="/assets/img/romb3.png" alt="">
+            <img src="./assets/img/romb1.png" alt="">
+            <img src="./assets/img/romb2.png" alt="">
+            <img src="./assets/img/romb3.png" alt="">
         </div>
     </div>
 </template>
@@ -44,7 +44,7 @@
 
     }
     .header {
-        background-image: url(/assets/img/bg1.png);
+        background-image: url(./assets/img/bg1.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -97,7 +97,7 @@
             padding-right: 8%;
         }
         .header {
-            background-image: url(/assets/img/bg1.png);
+            background-image: url(./assets/img/bg1.png);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;

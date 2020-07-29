@@ -6,9 +6,9 @@
         </div>
 
         <div class="book">
-            <img src="/assets/img/book1.png" alt="">
-            <img src="/assets/img/book2.png" alt="">
-            <img src="/assets/img/book3.png" alt="">
+            <img src="./assets/img/book1.png" alt="">
+            <img src="./assets/img/book2.png" alt="">
+            <img src="./assets/img/book3.png" alt="">
         </div>
 
         <div class="circle">

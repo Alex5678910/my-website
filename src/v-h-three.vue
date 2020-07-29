@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="b-two">
-                <img src="/assets/img/mob32.png" alt="">
+                <img src="./assets/img/mob32.png" alt="">
                 <svg class="svg-two" width="72.649" height="562.5" viewBox="0 0 72.649 562.5">
                     <g id="Component_46_1" data-name="Component 46 – 1" transform="translate(72.149 562.5) rotate(180)">
                         <path id="Path_62" data-name="Path 62" d="M5163.425,2390.149h141"
@@ -210,7 +210,7 @@
     }
 
     .container {
-        background-image: url(/assets/img/bg32.png);
+        background-image: url(./assets/img/bg32.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

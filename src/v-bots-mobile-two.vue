@@ -137,7 +137,7 @@
     .container {
         max-width: 414px;
         height: 1115px;
-        background-image: url(/assets/img/bg-r-tvo.png);
+        background-image: url(./assets/img/bg-r-tvo.png);
     }
     .card:nth-child(1) {
         grid-area: a;

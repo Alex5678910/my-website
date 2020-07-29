@@ -3,13 +3,13 @@
         <div class="container">
             <div class="grid">
                 <div class="grid__item">
-                    <img src="/assets/img/t1.png" alt="">
+                    <img src="./assets/img/t1.png" alt="">
                 </div>
                 <div class="grid__item">
-                    <img src="/assets/img/t2.png" alt="">
+                    <img src="./assets/img/t2.png" alt="">
                 </div>
                 <div class="grid__item">
-                    <img src="/assets/img/t3.png" alt="">
+                    <img src="./assets/img/t3.png" alt="">
                 </div>
             </div>
             <div class="circles">

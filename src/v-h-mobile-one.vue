@@ -77,7 +77,7 @@
     }
     .container {
         max-width: 414px;
-        background-image: url(/assets/img/bg-mob-001.png);
+        background-image: url(./assets/img/bg-mob-001.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

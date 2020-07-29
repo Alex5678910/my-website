@@ -21,7 +21,7 @@
         </div>
         <p>WebKiwi<br>
             digital studio</p>
-        <img src="/assets/img/list.png" alt="" class="list" @click="openSlide">
+        <img src="./assets/img/list.png" alt="" class="list" @click="openSlide">
     </div>
 </template>
 
@@ -84,7 +84,7 @@
     }
     .container{
         max-width: 414px;
-        background-image: url(/assets/images/mobile-robot-one.png);
+        background-image: url(./assets/img/mobile-robot-one.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

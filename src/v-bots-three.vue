@@ -95,10 +95,10 @@
                 <h3>Аналитика</h3>
             </div>
         </div>
-            <div class="images-r"><img src="/assets/img/bg-robot-three.png" alt=""></div>
+            <div class="images-r"><img src="./assets/img/bg-robot-three.png" alt=""></div>
         </div>
         <div class="block-three">
-            <div class="img"><img src="/assets/img/big-robot.png" alt=""></div>
+            <div class="img"><img src="./assets/img/big-robot.png" alt=""></div>
             <p>Современные боты выполняют множество задач, автоматически, без участия человека,<br>
                 тем самым облегчая задачи и освобождая ваше время.</p>
         </div>
@@ -114,7 +114,7 @@
 
 <style scoped>
     .main-menu{
-        background-image: url(/assets/img/bg-robot.png);
+        background-image: url(./assets/img/bg-robot.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

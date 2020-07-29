@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="fixed">
-            <img src="/assets/img/list.png" alt="" class="list" @click="openSlide">
+            <img src="./assets/img/list.png" alt="" class="list" @click="openSlide">
         </div>
         <div class="title">7 причин</div>
         <ul>
@@ -18,13 +18,13 @@
         </ul>
         <div class="flex">
             <div class="flex__item">
-                <img src="/assets/img/t1.png" alt="">
+                <img src="./assets/img/t1.png" alt="">
             </div>
             <div class="flex__item">
-                <img src="/assets/img/t2.png" alt="">
+                <img src="./assets/img/t2.png" alt="">
             </div>
             <div class="flex__item">
-                <img src="/assets/img/t3.png" alt="">
+                <img src="./assets/img/t3.png" alt="">
             </div>
         </div>
         <div class="footer">

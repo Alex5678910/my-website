@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="container-two">
-            <img src="/assets/img/iPhone-XS.png" alt="">
+            <img src="./assets/img/iPhone-XS.png" alt="">
             <div class="rectangle">
                 <div class="text">Привлекательный<br>
                     &nbsp;<span>внешний вид</span>
@@ -136,7 +136,7 @@
     }
 
     .container {
-        background-image: url(/assets/img/bg31.png);
+        background-image: url(./assets/img/bg31.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

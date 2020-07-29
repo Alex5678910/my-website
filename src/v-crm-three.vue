@@ -140,7 +140,7 @@
     div.left-block .image-wrapper {
         width: auto;
         height: 542px;
-        background: url(/assets/img/crm-04.png) no-repeat 50% 50%;
+        background: url(./assets/img/crm-04.png) no-repeat 50% 50%;
         background-size: contain;
         margin-right: 77px;
     }
@@ -159,7 +159,7 @@
     div.right-wrapper::before {
         position: absolute;
         content: '';
-        background: url(/assets/img/crm-06.png) no-repeat 50% 50%;
+        background: url(./assets/img/crm-06.png) no-repeat 50% 50%;
         background-size: cover;
         width: 100%;
         height: 852px;
@@ -187,7 +187,7 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        background: url(/assets/img/crm-05.png) no-repeat 50% 50%;
+        background: url(./assets/img/crm-05.png) no-repeat 50% 50%;
         height: 635px;
         width: 562px;
     }

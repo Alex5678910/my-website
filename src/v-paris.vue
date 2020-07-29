@@ -10,7 +10,7 @@
             <router-link tag="a" :to="'/razrabotka'"><a class="info" @click="openUp()">Подробнее</a></router-link>
         </div>
         <div class="images">
-            <img src="/assets/img/m1.png" alt="">
+            <img src="./assets/img/m1.png" alt="">
         </div>
     </div>
 </template>
@@ -41,7 +41,7 @@
     }
 
     .main {
-        background-image: url(/assets/img/bg2.png);
+        background-image: url(./assets/img/bg2.png);
         background-attachment: fixed;
         height: 980px;
         display: flex;

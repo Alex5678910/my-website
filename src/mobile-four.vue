@@ -22,7 +22,7 @@
     .container {
         max-width: 414px;
         height: 194px;
-        background-image: url(/assets/img/mb3.png);
+        background-image: url(./assets/img/mb3.png);
         display: flex;
         flex-direction: column;
         align-items: center;
