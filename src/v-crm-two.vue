@@ -9,13 +9,13 @@
             <div class="container-two">
 
                 <div class="icons">
-                    <img src="/assets/images/iv1.png" alt="" class="icon">
-                    <img src="/assets/images/line99.png" alt="" class="line">
-                    <img src="/assets/images/iv2.png" alt="" class="icon">
-                    <img src="/assets/images/line99.png" alt="" class="line">
-                    <img src="/assets/images/iv3.png" alt="" class="icon">
-                    <img src="/assets/images/line99.png" alt="" class="line">
-                    <img src="/assets/images/iv4.png" alt="" class="icon">
+                    <img src="/assets/img/iv1.png" alt="" class="icon">
+                    <img src="/assets/img/line99.png" alt="" class="line">
+                    <img src="/assets/img/iv2.png" alt="" class="icon">
+                    <img src="/assets/img/line99.png" alt="" class="line">
+                    <img src="/assets/img/iv3.png" alt="" class="icon">
+                    <img src="/assets/img/line99.png" alt="" class="line">
+                    <img src="/assets/img/iv4.png" alt="" class="icon">
                 </div>
 
                 <div class="text-five">
@@ -111,10 +111,10 @@
                     </div>
 
                     <div class="images-five">
-                        <img src="/assets/images/iy1.png" alt="" class="iy-one">
+                        <img src="/assets/img/iy1.png" alt="" class="iy-one">
                         <div class="direct">
-                            <img src="/assets/images/iy2.png" alt="" class="iy-two">
-                            <img src="/assets/images/iy3.png" alt="" class="iy-three">
+                            <img src="/assets/img/iy2.png" alt="" class="iy-two">
+                            <img src="/assets/img/iy3.png" alt="" class="iy-three">
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
     .container {
         margin-top: 0;
         max-width: 100%;
-        background-image: url(/assets/images/bg-crm-three.png);
+        background-image: url(/assets/img/bg-crm-three.png);
         background-size: cover;
         height: 76rem;
     }

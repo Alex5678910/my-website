@@ -45,7 +45,7 @@
         padding-bottom: 5%;
     }
     .main-two {
-        background-image: url(/assets/mobail/bg-crm-header.png);
+        background-image: url(/assets/img/bg-crm-header.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 293px;

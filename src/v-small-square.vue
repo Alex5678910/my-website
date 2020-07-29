@@ -7,7 +7,7 @@
             </div>
 
             <div class="sq">
-                <img src="/assets/images/i1.png">
+                <img src="/assets/img/i1.png">
                 <h2>Lending Page</h2>
                 <p>С учетом поведенческих факторов<br>
                     разработаем<br>
@@ -22,7 +22,7 @@
         <div class="square-small">
 
             <div class="sq">
-                <img src="/assets/images/i2.png">
+                <img src="/assets/img/i2.png">
                 <h2>Сайт-визитка</h2>
                 <p>Создадим простой стильный и<br>
                     лаконичный сайт для<br>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="sq qs">
-                <img src="/assets/images/i3.png">
+                <img src="/assets/img/i3.png">
                 <h2>Корпоративный сайт</h2>
                 <p>Разрабатываем презентационный<br>
                     сайт компании, представив ваши<br>
@@ -46,7 +46,7 @@
         <div class="square-small">
 
             <div class="sq qs">
-                <img src="/assets/images/i4.png">
+                <img src="/assets/img/i4.png">
                 <h2>Сайт-каталог</h2>
                 <p>Воплотим весь ваш товарный<br>
                     каталог в формат<br>
@@ -57,7 +57,7 @@
             </div>
 
             <div class="sq">
-                <img src="/assets/images/i5.png">
+                <img src="/assets/img/i5.png">
                 <h2>Интернет магазин</h2>
                 <p>Создадим интернет-магазин<br>
                     учитывающий особенности ваших<br>

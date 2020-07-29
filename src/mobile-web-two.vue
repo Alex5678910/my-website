@@ -16,8 +16,8 @@
             А так же в дальнейшем его продвижении<br>
             и обслуживании.</h2>
         <div class="icon">
-        <img src="/assets/mobail/mobile-monitor-one.png" alt="" class="monitor">
-            <img src="/assets/mobail/list.png" alt="" class="list" @click="openSlide">
+        <img src="/assets/img/mobile-monitor-one.png" alt="" class="monitor">
+            <img src="/assets/img/list.png" alt="" class="list" @click="openSlide">
         </div>
     </div>
 </template>

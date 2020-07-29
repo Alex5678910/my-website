@@ -6,7 +6,7 @@
                 вашего бизнеса</div>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <img src="/assets/mobail/list.png" alt="" class="list" @click="openSlide">
+            <img src="/assets/img/list.png" alt="" class="list" @click="openSlide">
         </div>
         <div class="text">
             <h3>Автоматизируйте свой рабочий процесс вместе с нами</h3><br>

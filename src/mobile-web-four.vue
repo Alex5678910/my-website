@@ -4,7 +4,7 @@
         <div id="grid" class="grid">
 
             <div class="grid__item">
-                <img class="images" src="/assets/images/ic1.png" alt="">
+                <img class="images" src="/assets/img/ic1.png" alt="">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -20,7 +20,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="/assets/images/ic2.png" alt="">
+                <img class="images" src="/assets/img/ic2.png" alt="">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="/assets/images/ic3.png" alt="">
+                <img class="images" src="/assets/img/ic3.png" alt="">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -51,7 +51,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="/assets/images/ic4.png" alt="">
+                <img class="images" src="/assets/img/ic4.png" alt="">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -67,7 +67,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="/assets/images/ic5.png" alt="">
+                <img class="images" src="/assets/img/ic5.png" alt="">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -82,7 +82,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="/assets/images/ic6.png" alt="">
+                <img class="images" src="/assets/img/ic6.png" alt="">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -97,7 +97,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="/assets/images/ic7.png" alt="">
+                <img class="images" src="/assets/img/ic7.png" alt="">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -113,7 +113,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="/assets/images/ic8.png" alt="">
+                <img class="images" src="/assets/img/ic8.png" alt="">
             </div> <!--img-->
 
             <div class="grid__item">

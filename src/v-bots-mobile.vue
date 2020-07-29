@@ -21,7 +21,7 @@
         </div>
         <p>WebKiwi<br>
             digital studio</p>
-        <img src="/assets/mobail/list.png" alt="" class="list" @click="openSlide">
+        <img src="/assets/img/list.png" alt="" class="list" @click="openSlide">
     </div>
 </template>
 
