@@ -76,13 +76,16 @@ if (process.env.NODE_ENV === 'production') {
       // Absolute path to compiled SPA
       path.resolve(__dirname, './dist'),
       // List of routes to prerender
-      [ '/', '/about' ],
+      [ '/', '/razrabotka', '/mobile', '/crm', '/bots' ],
 
       {
         postProcessHtml: function (context) {
           var titles = {
             '/': 'My home page',
-            '/about': 'My awesome about page'
+            '/razrabotka': 'razrabotka',
+            '/mobile': 'My mobile',
+            '/crm': 'My crm',
+            '/bots': 'My bots',
           }
           return context.html.replace(
             /<title>[^<]*<\/title>/i,

@@ -1,22 +1,39 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import About from '../About'
-import Home from '../Home'
+import VueRouter from 'vue-router'
+import vMainWrapper from '../v-main-wrapper'
+import vRazrabotka from '../v-product'
+import vMobile from '../v-mobile'
+import vCrm from '../v-crm'
+import vBots from '../v-bots'
 
-Vue.use(Router)
-
-export default new Router({
+export default new VueRouter({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home
+      component: vMainWrapper
+
     },
     {
-      path: '/about',
-      name: 'About',
-      component: About
-    }
+      path: '/razrabotka',
+      component: vRazrabotka,
+      name: 'razrabotka',
+
+    },
+    {
+      path: '/mobile',
+      component: vMobile,
+      name: 'mobile',
+
+    },
+    {
+      path: '/crm',
+      component: vCrm,
+      name: 'crm',
+    },
+    {
+      path: '/bots',
+      component: vBots,
+      name: 'bots',
+    },
   ],
   mode: 'history'
 })
