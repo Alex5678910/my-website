@@ -36,13 +36,13 @@
     }
 
     p {
-        color: #0d0e23;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        text-align: right;
-        font-weight: bold;
-        padding-right: 10%;
-        padding-top: 10%;
+      color: #0d0e23;
+      font-family: Montserrat,sans-serif;
+      font-size: 20px;
+      text-align: right;
+      font-weight: 700;
+      padding-right: 16%;
+      padding-top: 10%;
     }
 
     .main {

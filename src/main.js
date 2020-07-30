@@ -1,12 +1,20 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueRouter from 'vue-router'  // Add this
-import router from './router'       // Add this
+import VueRouter from 'vue-router'
+import router from './router'
+import VueMeta from 'vue-meta';
+
+
+Vue.config.productionTip = false
 
 Vue.use(VueRouter)
 
-new Vue({
-  el: '#app',
-  router,
-  render: h => h(App)
+Vue.use(VueMeta, {
+  // optional pluginOptions
+  refreshOnceOnNavigation: true
 })
+
+new Vue({
+  render: h => h(App),
+  router
+}).$mount('#app')
