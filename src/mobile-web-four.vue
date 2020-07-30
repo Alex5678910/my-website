@@ -4,7 +4,7 @@
         <div id="grid" class="grid">
 
             <div class="grid__item">
-                <img class="images" src="./assets/img/ic1.png" alt="">
+                <img class="images" src="./assets/img/ic1.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -20,7 +20,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="./assets/img/ic2.png" alt="">
+                <img class="images" src="./assets/img/ic2.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="./assets/img/ic3.png" alt="">
+                <img class="images" src="./assets/img/ic3.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -51,7 +51,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="./assets/img/ic4.png" alt="">
+                <img class="images" src="./assets/img/ic4.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -67,7 +67,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="./assets/img/ic5.png" alt="">
+                <img class="images" src="./assets/img/ic5.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -82,7 +82,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="./assets/img/ic6.png" alt="">
+                <img class="images" src="./assets/img/ic6.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -97,7 +97,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="./assets/img/ic7.png" alt="">
+                <img class="images" src="./assets/img/ic7.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -113,7 +113,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="./assets/img/ic8.png" alt="">
+                <img class="images" src="./assets/img/ic8.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -133,6 +133,7 @@
 <style scoped>
     div.title{
         font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
     }
     .images{
         width: 60px;
@@ -144,12 +145,19 @@
         font-family: 'Montserrat', sans-serif;
         margin-bottom: 2rem;
         margin-top: 2rem;
+        display: -ms-grid;
         display: grid;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         grid-column-gap: 5%;
         grid-row-gap: 0;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-grid-columns: 100px 5% 200px;
         grid-template-columns: 100px 200px;
+        -ms-grid-rows: 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px;
         grid-template-rows: 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px;
         grid-template-areas: "a b"
                              "c cc"
@@ -169,107 +177,153 @@
     }
 
     .grid__item:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
         grid-area: a;
     }
 
     .grid__item:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
         grid-area: b;
         text-align: left;
     }
 
     .grid__item:nth-child(3) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
         grid-area: c;
     }
 
     .grid__item:nth-child(4) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
         grid-area: d;
     }
 
     .grid__item:nth-child(5) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 3;
         grid-area: e;
         text-align: left;
     }
 
     .grid__item:nth-child(6) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 1;
         grid-area: f;
     }
 
     .grid__item:nth-child(7) {
+        -ms-grid-row: 9;
+        -ms-grid-column: 1;
         grid-area: g;
     }
 
     .grid__item:nth-child(8) {
+        -ms-grid-row: 9;
+        -ms-grid-column: 3;
         grid-area: h;
         text-align: left;
     }
 
     .grid__item:nth-child(9) {
+        -ms-grid-row: 11;
+        -ms-grid-column: 1;
         grid-area: i;
     }
 
     .grid__item:nth-child(10) {
+        -ms-grid-row: 13;
+        -ms-grid-column: 1;
         grid-area: j;
     }
 
     .grid__item:nth-child(11) {
+        -ms-grid-row: 13;
+        -ms-grid-column: 3;
         grid-area: k;
         text-align: left;
     }
 
     .grid__item:nth-child(12) {
+        -ms-grid-row: 15;
+        -ms-grid-column: 1;
         grid-area: l;
     }
 
     .grid__item:nth-child(13) {
+        -ms-grid-row: 17;
+        -ms-grid-column: 1;
         grid-area: m;
     }
 
     .grid__item:nth-child(14) {
+        -ms-grid-row: 17;
+        -ms-grid-column: 3;
         grid-area: o;
         text-align: left;
     }
 
     .grid__item:nth-child(15) {
+        -ms-grid-row: 19;
+        -ms-grid-column: 1;
         grid-area: p;
     }
 
     .grid__item:nth-child(16) {
+        -ms-grid-row: 21;
+        -ms-grid-column: 1;
         grid-area: q;
     }
 
     .grid__item:nth-child(17) {
+        -ms-grid-row: 21;
+        -ms-grid-column: 3;
         grid-area: r;
         text-align: left;
     }
 
     .grid__item:nth-child(18) {
+        -ms-grid-row: 23;
+        -ms-grid-column: 1;
         grid-area: t;
     }
 
     .grid__item:nth-child(19) {
+        -ms-grid-row: 25;
+        -ms-grid-column: 1;
         grid-area: u;
     }
 
     .grid__item:nth-child(20) {
+        -ms-grid-row: 25;
+        -ms-grid-column: 3;
         grid-area: v;
         text-align: left;
     }
 
     .grid__item:nth-child(21) {
+        -ms-grid-row: 27;
+        -ms-grid-column: 1;
         grid-area: w;
     }
 
     .grid__item:nth-child(22) {
+        -ms-grid-row: 29;
+        -ms-grid-column: 1;
         grid-area: z;
     }
 
     .grid__item:nth-child(23) {
+        -ms-grid-row: 29;
+        -ms-grid-column: 3;
         grid-area: aa;
         text-align: left;
     }
 
     .container {
-    max-width: 414px;
+        max-width: 414px;
 
     }
     /*====================================================min-width: 415========================================*/
@@ -285,12 +339,19 @@
             font-family: 'Montserrat', sans-serif;
             margin-bottom: 2rem;
             margin-top: 2rem;
+            display: -ms-grid;
             display: grid;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             grid-column-gap: 0;
             grid-row-gap: 0;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -ms-grid-columns: 100px 0 200px;
             grid-template-columns: 100px 200px;
+            -ms-grid-rows: 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px 0 35px 0 60px;
             grid-template-rows: 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px;
             grid-template-areas: "a b"
                              "c cc"
@@ -307,6 +368,98 @@
                              "u v"
                              "w ww"
                              "z aa"
+        }
+        .grid__item:nth-child(1) {
+            -ms-grid-row: 1;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(2) {
+            -ms-grid-row: 1;
+            -ms-grid-column: 3
+        }
+        .grid__item:nth-child(3) {
+            -ms-grid-row: 3;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(4) {
+            -ms-grid-row: 5;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(5) {
+            -ms-grid-row: 5;
+            -ms-grid-column: 3
+        }
+        .grid__item:nth-child(6) {
+            -ms-grid-row: 7;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(7) {
+            -ms-grid-row: 9;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(8) {
+            -ms-grid-row: 9;
+            -ms-grid-column: 3
+        }
+        .grid__item:nth-child(9) {
+            -ms-grid-row: 11;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(10) {
+            -ms-grid-row: 13;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(11) {
+            -ms-grid-row: 13;
+            -ms-grid-column: 3
+        }
+        .grid__item:nth-child(12) {
+            -ms-grid-row: 15;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(13) {
+            -ms-grid-row: 17;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(14) {
+            -ms-grid-row: 17;
+            -ms-grid-column: 3
+        }
+        .grid__item:nth-child(15) {
+            -ms-grid-row: 19;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(16) {
+            -ms-grid-row: 21;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(17) {
+            -ms-grid-row: 21;
+            -ms-grid-column: 3
+        }
+        .grid__item:nth-child(18) {
+            -ms-grid-row: 23;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(19) {
+            -ms-grid-row: 25;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(20) {
+            -ms-grid-row: 25;
+            -ms-grid-column: 3
+        }
+        .grid__item:nth-child(21) {
+            -ms-grid-row: 27;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(22) {
+            -ms-grid-row: 29;
+            -ms-grid-column: 1
+        }
+        .grid__item:nth-child(23) {
+            -ms-grid-row: 29;
+            -ms-grid-column: 3
         }
     }
     /*====================================================min-width: 415========================================*/

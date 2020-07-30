@@ -29,7 +29,7 @@
             VBotsMobileThree,
             VBotsMobileTwo, VBotsMobile, MobileHeader, VBotsThree, VBotsTwo, VFooterTwo, VFooterOne, VBotsOne
         },
-        metaInfo: {
+        /*metaInfo: {
             title: 'компонент Боты',
             titleTemplate: '%s | vue-meta Example App',
             htmlAttrs: {
@@ -43,7 +43,7 @@
             { name: 'description', content: 'gator' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ]
-        },
+        },*/
     }
 </script>
 

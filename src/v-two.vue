@@ -1,8 +1,8 @@
 <template>
     <div class="main">
         <div class="left">
-            <h1>Зачем вашему<br>
-                бизнесу нужен сайт?</h1>
+            <h1><strong>Зачем вашему<br>
+                бизнесу нужен сайт?</strong></h1>
             <p>С развитием технологий весь поток<br>
                 потенциальных клиентов перешел<br>
                 в интернет. Можно предлагать свои<br>
@@ -17,7 +17,7 @@
                 его продвижении и обслуживании.</p>
         </div>
         <div class="right">
-            <img src="./assets/img/computer.png" alt="">
+            <img src="./assets/img/computer.webp" title="Сайт для бизнеса" alt="Монитор с дизайном сайта">
             <svg width="566" height="364" viewBox="0 0 566 364" class="cls-one">
                 <g id="Rectangle_34" data-name="Rectangle 34" fill="none" stroke="#e0f" stroke-width="2" opacity="0.45">
                     <rect width="566" height="364" rx="15" stroke="none"/>
@@ -180,12 +180,12 @@
             height: 101%;
             z-index: 25;
         }
-        .main {
+        .main[data-v-49c8d3d6] {
             position: relative;
             height: 555px;
             color: #E1E1E1;
         }
-        .cls-two {
+        .cls-two[data-v-49c8d3d6] {
             position: absolute;
             top: -35.1%;
             right: 57.99%;
@@ -195,7 +195,7 @@
     /*====================================================max-width: 1024========================================*/
     /*============================================================768===================================*/
     @media (max-width: 768px) {
-        .main {
+        .main{
             position: relative;
             height: 490px;
             color: #E1E1E1;
@@ -221,7 +221,7 @@
             font-size: 136%;
             z-index: 242;
         }
-        p{
+        p {
             font-size: 96%;
             position: absolute;
             top: 24%;
@@ -247,5 +247,4 @@
             display: none;
         }
     }
-
 </style>

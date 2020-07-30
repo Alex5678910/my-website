@@ -39,19 +39,34 @@
     .container {
         max-width: 414px;
         height: 194px;
-        background-image: url(./assets/img/mb1.png);
+        background-image: url(./assets/img/mb1.webp);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(./assets/img/mb1.png);
+        }
+    }
 
     div.title {
         text-align: left;
         font-size: 20px;
         color: #FFFFFF;
         font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
     }
 
     h2 {

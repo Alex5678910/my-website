@@ -33,7 +33,7 @@
             VCrmMobileThree,
             VCrmMobileTwo, VCrmMobileOne, MobileHeader, VFooterTwo, VFooterOne, VCrmTwo, VCrmOne
         },
-        metaInfo: {
+/*        metaInfo: {
             title: 'компонент CRM',
             titleTemplate: '%s | vue-meta Example App',
             htmlAttrs: {
@@ -44,11 +44,10 @@
             },
             meta: [
             { charset: 'utf-8' },
-            { name: 'description', content: 'gator' },
+            { name: 'description', content: 'компонент CRM' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ]
-        },
-
+        },*/
     }
 </script>
 

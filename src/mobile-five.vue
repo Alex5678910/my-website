@@ -2,32 +2,32 @@
     <div class="container">
         <div class="title">Почему стоит выбирать
             именно нас</div>
-        <img src="./assets/img/x1.png" alt="">
+        <img src="./assets/img/x1.png" alt="pic">
         <p>Мы анализируем рынок. Проводим
             Аналитику исследование конкурентов и
             контрагентов. Разбираемся в отрасли.</p>
-        <img src="./assets/img/x2.png" alt="">
+        <img src="./assets/img/x2.png" alt="pic">
         <p>Мы нацеленны на долгосрочные отношения
             с заказчиком. Исходя из этого делаем
             сотрудничество с нами
             наиболее комфортным.</p>
-        <img src="./assets/img/x3.png" alt="">
+        <img src="./assets/img/x3.png" alt="pic">
         <p>Консультируем и помогаем разобраться
             в digital.</p>
-        <img src="./assets/img/x4.png" alt="">
+        <img src="./assets/img/x4.png" alt="pic">
         <p>Не бросаем клиента после завершения
             проекта. занимаемся дальнейшей
             поддержкой и продвижением.</p>
-        <img src="./assets/img/x5.png" alt="">
+        <img src="./assets/img/x5.png" alt="pic">
         <p>Мы найдем пользу и сделаем проект
             выгодным для вас.</p>
-        <img src="./assets/img/x6.png" alt="">
+        <img src="./assets/img/x6.png" alt="pic">
         <p>Мы следим за последними требованиями
             и трендами отрасли. Применяем
             новые технологии, делаем проекты
             привлекающими внимание, продающими,
             с качественным контентом.</p>
-        <img src="./assets/img/x7.png" alt="">
+        <img src="./assets/img/x7.png" alt="pic">
         <p>Ваш проект будет работать и
             и будет актуальным.</p>
     </div>
@@ -49,16 +49,26 @@
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 20px;
         padding: 4% 3%;
+        font-weight: 700;
     }
 
     .container {
         max-width: 414px;
         background-color: black;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
-        background-image: url(./assets/img/mbg.png);
+        background-image: url(./assets/img/mbg.webp);
         background-position: center;
     }
 

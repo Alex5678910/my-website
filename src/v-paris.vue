@@ -1,16 +1,16 @@
 <template>
     <div class="main">
         <div class="text">
-            <div class="title">Создадим сайт<br>
-                для вашей компании.</div>
+            <h1><strong>Создадим сайт<br>
+                для вашей компании.</strong></h1>
             <hr>
             <h2>Наша продуманная работа <br>
                 поможет представить вам свой контент<br>
                 в самом выгодном свете</h2>
-            <router-link tag="a" :to="'/razrabotka'"><a class="info" @click="openUp()">Подробнее</a></router-link>
+            <router-link tag="a" :to="'/good'"><a class="info" @click="openUp()">Подробнее</a></router-link>
         </div>
         <div class="images">
-            <img src="./assets/img/m1.png" alt="">
+            <img src="./assets/img/m1.webp" alt="pic">
         </div>
     </div>
 </template>
@@ -37,13 +37,17 @@
     .images {
         position: absolute;
         right: 0;
+        -webkit-transform: scale(.8);
+        -ms-transform: scale(.8);
         transform: scale(.8);
     }
 
     .main {
-        background-image: url(./assets/img/bg2.png);
+        background-image: url(./assets/img/bg2.webp);
         background-attachment: fixed;
         height: 980px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         background-size: cover;
         background-repeat: no-repeat;
@@ -62,6 +66,17 @@
     }
 
     div.title {
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding-top: 32%;
+        text-align: left;
+        padding-left: 20%;
+        font-size: 380%;
+        z-index: 115;
+        margin: 40px 0;
+    }
+    h1 {
         color: aliceblue;
         font-weight: bold;
         font-family: 'Montserrat Alternates', sans-serif;
@@ -97,6 +112,15 @@
         }
 
         div.title {
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 21%;
+            padding-left: 8%;
+            font-size: 265%;
+            z-index: 115;
+        }
+        h1 {
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -155,6 +179,17 @@
             font-size: 380%;
             z-index: 115;
         }
+        h1 {
+            position: relative;
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 3%;
+            text-align: left;
+            padding-left: 8%;
+            font-size: 380%;
+            z-index: 115;
+        }
 
         h2 {
             color: aliceblue;
@@ -169,12 +204,44 @@
             margin-left: 8%;
             border-color: #454649;
         }
+        a.info{
+            color: aliceblue;
+            margin-left: -23%;
+            font-size: 177%;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
     }
 
     /*====================================================max-width: 1025px========================================*/
     /*====================================================max-width: 768px========================================*/
     @media (max-width: 768px) {
-
+        h1{
+            position: relative;
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 3%;
+            text-align: left;
+            padding-left: 8%;
+            font-size: 328%;
+            z-index: 115;
+        }
+        h2{
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 173%;
+            z-index: 115;
+        }
+        a.info{
+            color: aliceblue;
+            margin-left: -20%;
+            font-size: 177%;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+        .main{
+            height: 33rem;
+        }
     }
 
     /*====================================================max-width: 769px========================================*/

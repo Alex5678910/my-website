@@ -22,7 +22,7 @@
             тем самым привлекая в ваш бизнес новых<br>
             клиентов.</h2>
 
-        <img src="./assets/img/comp-two.png" alt="">
+        <img src="./assets/img/comp-two.png" alt="pic">
 
     </div>
 </template>
@@ -43,9 +43,17 @@
         height: 648px;
         background-color: #FBEED3;
         background-repeat: no-repeat;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
@@ -54,8 +62,10 @@
         font-size: 23px;
         font-family: 'Montserrat', sans-serif;
         margin: 0;
+        -ms-flex-item-align: baseline;
         align-self: baseline;
         padding-left: 18%;
+        font-weight: 700;
     }
 
     h2{
@@ -87,8 +97,10 @@
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;
             margin: 0;
+            -ms-flex-item-align: baseline;
             align-self: baseline;
             padding-left: 10%;
+            font-weight: 700;
         }
         h2{
             font-size: 13px;
@@ -107,8 +119,10 @@
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;
             margin: 0;
+            -ms-flex-item-align: baseline;
             align-self: baseline;
             padding-left: 10%;
+            font-weight: 700;
         }
         h2{
             font-size: 12px;
@@ -119,9 +133,17 @@
             background-size: cover;
             background-color: white;
             background-repeat: no-repeat;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
         }
     }

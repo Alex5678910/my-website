@@ -2,8 +2,8 @@
     <div class="container">
         <div class="container-one">
             <h5>digital development</h5>
-            <h1>Разработка<br>
-                мобильных приложений</h1>
+            <div class="title">Разработка<br>
+                мобильных приложений</div>
             <p>Мобильное приложение способно увеличить<br>
                 продажи компании, потому как служит средством<br>
                 привлечения и удержания клиентов.</p>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="container-two">
-            <img src="./assets/img/iPhone-XS.png" alt="">
+            <img src="./assets/img/iPhone-XS.webp" alt="pic">
             <div class="rectangle">
                 <div class="text">Привлекательный<br>
                     &nbsp;<span>внешний вид</span>
@@ -84,9 +84,17 @@
         font-size: 20px;
         color: white;
         font-family: 'Montserrat Alternates', sans-serif;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
         opacity: .8;
     }
@@ -119,6 +127,7 @@
         font-size: 55px;
         text-align: left;
         margin: 40px 0;
+        font-weight: 700;
     }
     h1 {
         color: white;
@@ -136,10 +145,12 @@
     }
 
     .container {
-        background-image: url(./assets/img/bg31.png);
+        background-image: url(./assets/img/bg31.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -189,9 +200,17 @@
             font-size: 14px;
             color: white;
             font-family: 'Montserrat Alternates', sans-serif;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
             opacity: .8;
         }
@@ -216,6 +235,7 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 45px;
             text-align: left;
+            font-weight: 700;
         }
         h1 {
             color: white;
@@ -284,9 +304,17 @@
             font-size: 14px;
             color: white;
             font-family: 'Montserrat Alternates', sans-serif;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
             opacity: .8;
         }
@@ -304,9 +332,17 @@
             font-size: 14px;
             color: white;
             font-family: 'Montserrat Alternates', sans-serif;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
             opacity: .8;
 
@@ -316,6 +352,7 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 37px;
             text-align: left;
+            font-weight: 700;
         }
         h1{
             color: white;

@@ -4,7 +4,7 @@
             выбирать именно нас?</div>
         <div class="grid">
 
-            <div class="grid__item"><img src="./assets/img/r01.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r01.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -13,7 +13,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r02.png" alt="" class="two"></div>
+            <div class="grid__item"><img src="./assets/img/r02.webp" alt="pic" class="two"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -22,7 +22,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r03.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r03.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Грамотно настроенный<br>
                 сайт и приложение<br>
@@ -44,7 +44,7 @@
 
             <!--======================================22222==============================================-->
 
-            <div class="grid__item"><img src="./assets/img/r04.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r04.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -53,7 +53,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r05.png" alt="" class="two"></div>
+            <div class="grid__item"><img src="./assets/img/r05.webp" alt="pic" class="two"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -62,7 +62,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r06.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r06.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы анализируем рынок</p></div>
 
@@ -79,7 +79,7 @@
             </div>
             <!--=====================================333=====================================-->
 
-            <div class="grid__item"><img src="./assets/img/r07.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r07.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -88,7 +88,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r08.png" alt="" class="two"></div>
+            <div class="grid__item"><img src="./assets/img/r08.webp" alt="pic" class="two"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -97,7 +97,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r09.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r09.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы нацелены на долгосрочные<br>
                 отношения с заказчиком</p></div>
@@ -114,7 +114,7 @@
                 </svg>
             </div>
             <!--================================4444444444444====================-->
-            <div class="grid__item"><img src="./assets/img/r10.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r10.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -132,7 +132,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r12.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r12.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы консультируем<br>
                 и помогаем разобраться в<br>
@@ -153,7 +153,7 @@
             </div>
             <!--================================55555555555====================-->
 
-            <div class="grid__item"><img src="./assets/img/r13.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r13.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -162,7 +162,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r14.png" alt="" class="two"></div>
+            <div class="grid__item"><img src="./assets/img/r14.webp" alt="pic" class="two"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -171,7 +171,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r15.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r15.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы следим за последними<br>
                 требованиями и трендами
@@ -193,7 +193,7 @@
             </div>
             <!--================================6666666666====================-->
 
-            <div class="grid__item"><img src="./assets/img/r16.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r16.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -202,7 +202,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="./assets/img/r17.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="./assets/img/r17.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы найдем пользу<br>
                 и сделаем проект выгодным
@@ -232,6 +232,7 @@
         padding-top: 11rem;
         font-size: 50px;
         margin-bottom: 40px;
+        font-weight: 700;
     }
 
     p{
@@ -241,18 +242,25 @@
     }
 
     .container {
-        background-image: url(./assets/img/bg7.png);
+        background-image: url(./assets/img/bg7.webp);
         background-attachment: fixed;
         background-position: center;
     }
 
     .grid {
         margin-top: 5rem;
+        display: -ms-grid;
         display: grid;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         color: aliceblue;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-grid-columns: 150px 196px 185px 208px 185px 196px 150px;
         grid-template-columns: 150px 196px 185px 208px 185px 196px 150px;
+        -ms-grid-rows: (120px)[17];
         grid-template-rows: repeat(17, 120px);
         grid-template-areas:
         "nnnq a b c d e rrrq"
@@ -275,187 +283,311 @@
     }
 
     .grid__item:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
         grid-area: a;
     }
 
     .grid__item:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
         grid-area: b;
     }
 
     .grid__item:nth-child(3) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 4;
         grid-area: c;
     }
 
     .grid__item:nth-child(4) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 5;
         grid-area: d;
     }
 
     .grid__item:nth-child(5) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 6;
         grid-area: e;
     }
 
     .grid__item:nth-child(6) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
         grid-area: f;
     }
 
     .grid__item:nth-child(7) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 3;
         grid-area: g;
     }
 
     .grid__item:nth-child(8) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 6;
+        -ms-grid-column-span: 2;
         grid-area: h;
     }
     .grid__item:nth-child(9) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 5;
         grid-area: i;
     }
     .grid__item:nth-child(10) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 2;
         grid-area: j;
     }
     .grid__item:nth-child(11) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 3;
         grid-area: k;
     }
 
     .grid__item:nth-child(12) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 4;
         grid-area: l;
     }
 
     .grid__item:nth-child(13) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 5;
         grid-area: m;
     }
 
     .grid__item:nth-child(14) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 6;
         grid-area: z;
     }
 
     .grid__item:nth-child(15) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
         grid-area: o;
     }
 
     .grid__item:nth-child(16) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 3;
         grid-area: p;
     }
 
     .grid__item:nth-child(17) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 6;
+        -ms-grid-column-span: 2;
         grid-area: q;
     }
     .grid__item:nth-child(18) {
+        -ms-grid-row: 6;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 5;
         grid-area: er;
     }
     .grid__item:nth-child(19) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 2;
         grid-area: tt;
     }
 
     .grid__item:nth-child(20) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 3;
         grid-area: t;
     }
 
     .grid__item:nth-child(21) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 4;
         grid-area: u;
     }
 
     .grid__item:nth-child(22) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 5;
         grid-area: v;
     }
 
     .grid__item:nth-child(23) {
+        -ms-grid-row: 7;
+        -ms-grid-column: 6;
         grid-area: w;
     }
 
     .grid__item:nth-child(24) {
+        -ms-grid-row: 8;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
         grid-area: xx;
     }
 
     .grid__item:nth-child(25) {
+        -ms-grid-row: 8;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 3;
         grid-area: yy;
     }
 
     .grid__item:nth-child(26) {
+        -ms-grid-row: 8;
+        -ms-grid-column: 6;
+        -ms-grid-column-span: 2;
         grid-area: zz;
     }
     .grid__item:nth-child(27) {
+        -ms-grid-row: 9;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 5;
         grid-area: ss;
     }
     .grid__item:nth-child(28) {
+        -ms-grid-row: 10;
+        -ms-grid-column: 2;
         grid-area: aa;
     }
 
     .grid__item:nth-child(29) {
+        -ms-grid-row: 10;
+        -ms-grid-column: 3;
         grid-area: bb;
     }
 
     .grid__item:nth-child(30) {
+        -ms-grid-row: 10;
+        -ms-grid-column: 4;
         grid-area: cc;
     }
 
     .grid__item:nth-child(31) {
+        -ms-grid-row: 10;
+        -ms-grid-column: 5;
         grid-area: dd;
     }
 
     .grid__item:nth-child(32) {
+        -ms-grid-row: 10;
+        -ms-grid-column: 6;
         grid-area: ee;
     }
 
     .grid__item:nth-child(33) {
+        -ms-grid-row: 11;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
         grid-area: ff;
     }
 
     .grid__item:nth-child(34) {
+        -ms-grid-row: 11;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 3;
         grid-area: gg;
     }
 
     .grid__item:nth-child(35) {
+        -ms-grid-row: 11;
+        -ms-grid-column: 6;
+        -ms-grid-column-span: 2;
         grid-area: hh;
     }
     .grid__item:nth-child(36) {
+        -ms-grid-row: 12;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 5;
         grid-area: ii;
     }
     .grid__item:nth-child(37) {
+        -ms-grid-row: 13;
+        -ms-grid-column: 2;
         grid-area: jj;
     }
 
     .grid__item:nth-child(38) {
+        -ms-grid-row: 13;
+        -ms-grid-column: 3;
         grid-area: kk;
     }
 
     .grid__item:nth-child(39) {
+        -ms-grid-row: 13;
+        -ms-grid-column: 4;
         grid-area: ll;
     }
 
     .grid__item:nth-child(40) {
+        -ms-grid-row: 13;
+        -ms-grid-column: 5;
         grid-area: mmm;
     }
 
     .grid__item:nth-child(41) {
+        -ms-grid-row: 13;
+        -ms-grid-column: 6;
         grid-area: oo;
     }
 
     .grid__item:nth-child(42) {
+        -ms-grid-row: 14;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
         grid-area: pp;
     }
 
     .grid__item:nth-child(43) {
+        -ms-grid-row: 14;
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 3;
         grid-area: qq;
     }
 
     .grid__item:nth-child(44) {
+        -ms-grid-row: 14;
+        -ms-grid-column: 6;
+        -ms-grid-column-span: 2;
         grid-area: rr;
     }
     .grid__item:nth-child(45) {
+        -ms-grid-row: 15;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 5;
         grid-area: uu;
     }
     .grid__item:nth-child(46) {
+        -ms-grid-row: 16;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 2;
         grid-area: bbb;
     }
     .grid__item:nth-child(47) {
+        -ms-grid-row: 16;
+        -ms-grid-column: 4;
         grid-area: ccc;
     }
     .grid__item:nth-child(48) {
+        -ms-grid-row: 16;
+        -ms-grid-column: 5;
+        -ms-grid-column-span: 2;
         grid-area: ddd;
     }
     .grid__item:nth-child(49) {
+        -ms-grid-row: 17;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 2;
         grid-area: eee;
     }
     .grid__item:nth-child(50) {
+        -ms-grid-row: 17;
+        -ms-grid-column: 5;
+        -ms-grid-column-span: 2;
         grid-area: fff;
     }
 
@@ -468,11 +600,54 @@
         width: 208px;
         height: 183px;
     }
+    /*========================1366================================*/
+    @media (max-width: 1366px) {
+        .grid {
+            margin-top: 5rem;
+            display: -ms-grid;
+            display: grid;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            color: aliceblue;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-grid-columns: 150px 196px 185px 208px 185px 196px 150px;
+            grid-template-columns: 145px 196px 180px 200px 180px 196px 145px;
+            -ms-grid-rows: (120px)[17];
+            grid-template-rows: repeat(17, 120px);
+            grid-template-areas:
+                    "nnnq a b c d e rrrq"
+                    "f f g g g h h"
+                    "nnne i i i i i rrre"
+                    "nnnr j k l m z rrrr"
+                    "o o p p p q q"
+                    "nnny er er er er er rrry"
+                    "nnnu tt t u v w rrru"
+                    "xx xx yy yy yy zz zz"
+                    "nnno ss ss ss ss ss rrro"
+                    "nnnp aa bb cc dd ee rrrp"
+                    "ff ff gg gg gg hh hh"
+                    "nnns ii ii ii ii ii rrrs"
+                    "nnnd jj kk ll mmm oo rrrd"
+                    "pp pp qq qq qq rr rr"
+                    "nnng uu uu uu uu uu rrrg"
+                    "nnnh bbb bbb ccc ddd ddd rrrh"
+                    "nnnj eee eee nnnn fff fff rrrj";
+        }
+        p{
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+        }
+    }
+
     /*====================================================max-width: 1025px========================================*/
     @media (max-width: 1025px) {
-      .container{
-          display: none;
-      }
+        .container{
+            display: none;
+        }
     }
     /*====================================================max-width: 1025px========================================*/
 </style>

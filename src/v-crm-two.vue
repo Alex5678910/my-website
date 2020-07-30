@@ -9,13 +9,13 @@
             <div class="container-two">
 
                 <div class="icons">
-                    <img src="./assets/img/iv1.png" alt="" class="icon">
-                    <img src="./assets/img/line99.png" alt="" class="line">
-                    <img src="./assets/img/iv2.png" alt="" class="icon">
-                    <img src="./assets/img/line99.png" alt="" class="line">
-                    <img src="./assets/img/iv3.png" alt="" class="icon">
-                    <img src="./assets/img/line99.png" alt="" class="line">
-                    <img src="./assets/img/iv4.png" alt="" class="icon">
+                    <img src="./assets/img/iv1.png" alt="icon" class="icon">
+                    <img src="./assets/img/line99.png" alt="icon" class="line">
+                    <img src="./assets/img/iv2.png" alt="icon" class="icon">
+                    <img src="./assets/img/line99.png" alt="icon" class="line">
+                    <img src="./assets/img/iv3.png" alt="icon" class="icon">
+                    <img src="./assets/img/line99.png" alt="icon" class="line">
+                    <img src="./assets/img/iv4.png" alt="icon" class="icon">
                 </div>
 
                 <div class="text-five">
@@ -111,10 +111,10 @@
                     </div>
 
                     <div class="images-five">
-                        <img src="./assets/img/iy1.png" alt="" class="iy-one">
+                        <img src="./assets/img/iy1.webp" alt="pic" class="iy-one">
                         <div class="direct">
-                            <img src="./assets/img/iy2.png" alt="" class="iy-two">
-                            <img src="./assets/img/iy3.png" alt="" class="iy-three">
+                            <img src="./assets/img/iy2.webp" alt="pic" class="iy-two">
+                            <img src="./assets/img/iy3.webp" alt="pic" class="iy-three">
                         </div>
                     </div>
                 </div>
@@ -134,6 +134,8 @@
         margin: 40px 0;
     }
     .right-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -143,7 +145,12 @@
     }
 
     .direct {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -163,6 +170,8 @@
     }
 
     .images-five {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -187,12 +196,20 @@
     }
 
     .container-two {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
     .text-five {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -209,17 +226,24 @@
     }
 
     .icons {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         width: 133px;
         height: 133px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 
     .container {
         margin-top: 0;
         max-width: 100%;
-        background-image: url(./assets/img/bg-crm-three.png);
+        background-image: url(./assets/img/bg-crm-three.webp);
         background-size: cover;
         height: 76rem;
     }
@@ -240,16 +264,20 @@
         padding-left: 27%;
     }
 
-    .img-two div.title {
-        color: #ffd2d2;
+    .text-five div.title{
+        color: #ABABAB;
         font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
         font-weight: bold;
-        font-size: 35px;
-        text-align: center;
-        padding-left: 32%;
+        text-align: left;
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 28px;
     }
 
     .img-two {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -292,6 +320,7 @@
         margin-top: 0;
         padding-left: 10%;
         padding-top: 4%;
+        font-weight: 700;
     }
 
     h2 {
@@ -326,6 +355,8 @@
         }
 
         .dream {
+            -webkit-transform: scale(.9);
+            -ms-transform: scale(.9);
             transform: scale(.9);
         }
 
@@ -354,7 +385,11 @@
         }
 
         .container-two {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
         }
 
@@ -382,6 +417,8 @@
         }
 
         .dream {
+            -webkit-transform: scale(.8);
+            -ms-transform: scale(.8);
             transform: scale(.8);
         }
 
@@ -401,7 +438,11 @@
         }
 
         .container-two {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
         }
 
@@ -455,6 +496,8 @@
         }
 
         .dream {
+            -webkit-transform: scale(.8);
+            -ms-transform: scale(.8);
             transform: scale(.8);
         }
 
@@ -473,7 +516,11 @@
         }
 
         .container-two {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
         }
 

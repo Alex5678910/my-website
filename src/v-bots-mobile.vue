@@ -21,7 +21,7 @@
         </div>
         <p>WebKiwi<br>
             digital studio</p>
-        <img src="./assets/img/list.png" alt="" class="list" @click="openSlide">
+        <img src="./assets/img/list.png" alt="pic" class="list" @click="openSlide">
     </div>
 </template>
 
@@ -65,6 +65,7 @@
         font-size: 22px;
         text-align: left;
         margin: 0;
+        font-weight: 700;
     }
     h1{
         color: #0d0e23;
@@ -84,11 +85,16 @@
     }
     .container{
         max-width: 414px;
-        background-image: url(./assets/img/mobile-robot-one.png);
+        background-image: url(./assets/img/mobile-robot-one.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         height: 692px;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(./assets/img/mobile-robot-one.png);
+        }
     }
     /* =======================================min-width: 414px==================================*/
     @media (min-width: 415px) {

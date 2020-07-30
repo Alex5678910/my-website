@@ -307,6 +307,7 @@
         margin: 0;
         padding-top: 5%;
         padding-bottom: 5%;
+        font-weight: 700;
     }
 
     .main {
@@ -359,6 +360,7 @@
             padding-top: 0;
             padding-bottom: 5%;
             margin-top: -9%;
+            font-weight: 700;
         }
         .block-three{
             display: -webkit-box;
@@ -424,6 +426,7 @@
             padding-top: 0;
             padding-bottom: 5%;
             margin-top: -31%;
+            font-weight: 700;
         }
         .block-three{
             display: -webkit-box;
@@ -499,6 +502,15 @@
             font-weight: normal;
             text-align: left;
             display: none;
+        }
+        .main {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 1620px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
         }
     }
     /*============================================================768===================================*/

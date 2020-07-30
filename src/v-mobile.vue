@@ -13,15 +13,15 @@
 </template>
 
 <script>
-    import VHOne from "./v-h-one";
-    import VHTwo from "./v-h-two";
-    import VHThree from "./v-h-three";
-    import VFooterOne from "./v-footer-one";
-    import VFooterTwo from "./v-footer-two";
-    import VHMobileOne from "./v-h-mobile-one";
-    import MobileHeader from "./mobile-header";
-    import VHMobileTwo from "./v-h-mobile-two";
-    import VHMobileThree from "./v-h-mobile-three";
+    import VHOne from './v-h-one';
+    import VHTwo from './v-h-two';
+    import VHThree from './v-h-three';
+    import VFooterOne from './v-footer-one';
+    import VFooterTwo from './v-footer-two';
+    import VHMobileOne from './v-h-mobile-one';
+    import MobileHeader from './mobile-header';
+    import VHMobileTwo from './v-h-mobile-two';
+    import VHMobileThree from './v-h-mobile-three';
 
     export default {
         name: "v-mobile",
@@ -29,7 +29,7 @@
             VHMobileThree,
             VHMobileTwo, MobileHeader, VHMobileOne, VFooterTwo, VFooterOne, VHThree, VHTwo, VHOne
         },
-        metaInfo: {
+       /* metaInfo: {
             title: 'компонент Мобильные приложения',
             titleTemplate: '%s | vue-meta Example App',
             htmlAttrs: {
@@ -43,7 +43,7 @@
             { name: 'description', content: 'gator' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ]
-        },
+        },*/
     }
 </script>
 

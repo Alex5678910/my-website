@@ -76,10 +76,12 @@
         padding: 0;
         font-family: 'Montserrat', sans-serif;
         max-width: 1920px;
-        }
+    }
 
     div.crm-wrapper {
         background-color: #000;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 852px;
         width: 100%;
@@ -97,7 +99,12 @@
 
     }
     div.subtitle-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
     }
     div.left-wrapper {
@@ -130,8 +137,15 @@
         margin-left: 15px;
     }
     div.middle-item .item {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
         flex-direction: row-reverse;
     }
     div.middle-item {
@@ -140,7 +154,7 @@
     div.left-block .image-wrapper {
         width: auto;
         height: 542px;
-        background: url(./assets/img/crm-04.png) no-repeat 50% 50%;
+        background: url(./assets/img/crm-04.webp) no-repeat 50% 50%;
         background-size: contain;
         margin-right: 77px;
     }
@@ -159,7 +173,7 @@
     div.right-wrapper::before {
         position: absolute;
         content: '';
-        background: url(./assets/img/crm-06.png) no-repeat 50% 50%;
+        background: url(./assets/img/crm-06.webp) no-repeat 50% 50%;
         background-size: cover;
         width: 100%;
         height: 852px;
@@ -187,7 +201,7 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        background: url(./assets/img/crm-05.png) no-repeat 50% 50%;
+        background: url(./assets/img/crm-05.webp) no-repeat 50% 50%;
         height: 635px;
         width: 562px;
     }

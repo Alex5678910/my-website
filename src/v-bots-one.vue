@@ -36,13 +36,13 @@
     }
 
     p {
-      color: #0d0e23;
-      font-family: Montserrat,sans-serif;
-      font-size: 20px;
-      text-align: right;
-      font-weight: 700;
-      padding-right: 16%;
-      padding-top: 10%;
+        color: #0d0e23;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: right;
+        font-weight: bold;
+        padding-right: 16%;
+        padding-top: 10%;
     }
 
     .main {
@@ -56,6 +56,7 @@
         font-size: 35px;
         text-align: right;
         margin: 0;
+        font-weight: 700;
     }
     h1 {
         color: #0d0e23;
@@ -75,7 +76,7 @@
     }
 
     .container {
-        background-image: url(./assets/img/bg-bots.png);
+        background-image: url(./assets/img/bg-bots.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -154,6 +155,7 @@
             font-size: 23px;
             text-align: right;
             margin: 0;
+            font-weight: 700;
         }
         h1 {
             color: #0d0e23;

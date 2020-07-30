@@ -6,7 +6,7 @@
                 вашего бизнеса</div>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <img src="./assets/img/list.png" alt="" class="list" @click="openSlide">
+            <img src="./assets/img/list.png" alt="pic" class="list" @click="openSlide">
         </div>
         <div class="text">
             <h3>Автоматизируйте свой рабочий процесс вместе с нами</h3><br>
@@ -49,18 +49,32 @@
     .container {
         max-width: 414px;
         height: 194px;
-        background-image: url(./assets/img/mb2.png);
+        background-image: url(./assets/img/mb2.webp);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
-
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(./assets/img/mb2.png);
+        }
+    }
     div.title {
         text-align: right;
         font-size: 20px;
         color: #FFFFFF;
         font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
     }
 
     h2 {

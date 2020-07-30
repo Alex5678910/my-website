@@ -1,14 +1,14 @@
 <template>
     <div class="main">
         <div class="web">
-            <h1>Web-разработка</h1>
+            <div class="title">Web-разработка</div>
             <small>Создание, разработка, продвижение....</small>
         </div>
 
         <div class="book">
-            <img src="./assets/img/book1.png" alt="">
-            <img src="./assets/img/book2.png" alt="">
-            <img src="./assets/img/book3.png" alt="">
+            <img src="./assets/img/book1.webp" title="Веб сайты и их разработка" alt="Варианты сайтов на заказ">
+            <img src="./assets/img/book2.webp" title="Веб сайты и их разработка" alt="Варианты сайтов на заказ">
+            <img src="./assets/img/book3.webp" title="Веб сайты и их разработка" alt="Варианты сайтов на заказ">
         </div>
 
         <div class="circle">
@@ -75,6 +75,18 @@
         font-family: Montserrat, sans-serif;
         font-weight: bold;
     }
+    div.title {
+        font-size: 450%;
+        color: #ffbe6a;
+        text-shadow: 2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        margin: 40px 0;
+    }
 
     small {
         font-size: 170%;
@@ -87,6 +99,8 @@
     .main {
         height: 953px;
         background-color: #E1E1E1;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         position: relative;
     }
@@ -122,7 +136,7 @@
         top: 16%;
         right: 9%;
     }
-/*============================================================1366===================================*/
+    /*============================================================1366===================================*/
     @media (max-width: 1366px) {
         svg.svg-one{
             height: 560px;
@@ -157,12 +171,13 @@
             fill: none;
             stroke: #00b5e3;
             stroke-linejoin: round;
-            /*stroke-width: 2%;*/
             opacity: 0.25;
         }
         .main {
             height: 675px;
             background-color: #E1E1E1;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             position: relative;
         }
@@ -186,7 +201,14 @@
         }
 
         img:nth-child(3) {
-         z-index: 10;
+            z-index: 10;
+        }
+        h1{
+            font-size: 333%;
+            color: #ffbe6a;
+            text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            font-family: Montserrat, sans-serif;
+            font-weight: bold;
         }
     }
     /*============================================================1366===================================*/
@@ -198,7 +220,7 @@
         svg.svg-two{
             height: 409px;
         }
-        div.title {
+        div.title[data-v-7a9835a2] {
             font-size: 235%;
             color: #ffbe6a;
             text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -206,7 +228,7 @@
             font-weight: bold;
         }
 
-        small{
+        small[data-v-7a9835a2][data-v-7a9835a2] {
             font-size: 108%;
             font-style: italic;
             font-family: Montserrat, sans-serif;
@@ -227,13 +249,15 @@
             stroke-linejoin: round;
             opacity: 0.25;
         }
-        .main {
+        .main{
             height: 590px;
             background-color: #E1E1E1;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             position: relative;
         }
-        .circle{
+        .circle {
             position: absolute;
             top: 28.8%;
             right: 4.7%;
@@ -278,6 +302,13 @@
         svg.svg-one {
             height: 430px;
         }
+        h1{
+            font-size: 212%;
+            color: #ffbe6a;
+            text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            font-family: Montserrat, sans-serif;
+            font-weight: bold;
+        }
     }
     /*============================================================1024===================================*/
     /*============================================================768===================================*/
@@ -285,21 +316,23 @@
         .circle {
             position: absolute;
             top: 33.8%;
-            right: 32.7%;
+            right: 6.1%;
             z-index: 1;
-            width: 34%;
+            width: 69%;
         }
         svg.svg-one {
             height: 384px;
             width: 400px;
         }
-        svg.svg-two{
+        svg.svg-two {
             height: 267px;
             width: 400px;
         }
         .main {
             height: 479px;
             background-color: #E1E1E1;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             position: relative;
         }
@@ -308,7 +341,7 @@
             top: 1%;
             left: 7.5%;
         }
-        .circle-two {
+        .circle-two{
             position: absolute;
             top: 45.1%;
             right: 8.4%;
@@ -320,5 +353,4 @@
             display: none !important;
         }
     }
-
 </style>

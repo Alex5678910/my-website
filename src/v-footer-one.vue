@@ -85,7 +85,11 @@
 <style scoped>
 
     .input__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
     }
 
@@ -126,11 +130,14 @@
     div.title {
         font-size: 50px;
         font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
     }
 
     img {
         width: 40px;
         margin-top: 1rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -138,9 +145,18 @@
         background-color: #000000;
         height: 728px;
         color: aliceblue;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         padding-left: 10%;
         font-family: 'Montserrat Alternates', sans-serif;
@@ -178,14 +194,21 @@
     /*====================================================max-width: 1366========================================*/
     /*====================================================max-width: 1024px========================================*/
     @media (max-width: 1024px) {
-        .footer {
+        .footer{
             margin-bottom: 0;
             background-color: #000000;
             color: aliceblue;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             padding-right: 7rem;
+            height: 29rem;
         }
 
         button {
@@ -199,18 +222,21 @@
         }
 
         div.title, small, img {
-            margin-left: 16%;
+            margin-left: 10%;
+        }
+        div.title {
+            font-size: 43px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 700;
         }
     }
 
     /*====================================================max-width: 768px========================================*/
     @media (max-width: 768px) {
-
         img {
             width: 40px;
             margin-top: 1rem;
         }
-
         button {
             text-align: center;
             font-family: 'Montserrat', sans-serif;
@@ -220,13 +246,31 @@
         .input {
             font-size: 1.7rem;
         }
-        div.title{
-            font-size: 47px;
+        div.title {
+            font-size: 33px;
+            font-weight: 700;
+        }
+        small{
+            font-size: 23px;
+            font-family: 'Montserrat Alternates', sans-serif;
         }
     }
 
     /*====================================================max-width: 414========================================*/
     @media (max-width: 414px) {
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            button {
+                width: 100%;
+                height: auto;
+                line-height: 24px;
+                font-size: 14px;
+                background-color: #efefef;
+                color: #000;
+            }
+            .input__wrapper {
+                margin-top: 15px;
+            }
+        }
         div.title, small, img {
             margin-left: 16%;
         }
@@ -235,7 +279,7 @@
         }
 
         button {
-            width: 58%;
+            width: 66%;
             height: 5%;
             border-radius: 10px;
             text-align: center;
@@ -246,12 +290,19 @@
         .footer {
             background-color: #000000;
             color: aliceblue;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             height: auto;
             padding-left: 0;
             padding-right: 0;
+            padding-bottom: 16px;
         }
 
         .footer div.title {
@@ -259,6 +310,7 @@
             font-family: 'Montserrat Alternates', sans-serif;
             margin-left: 0;
             margin-top: 10%;
+            font-weight: 700;
         }
 
         .footer small {
@@ -270,7 +322,11 @@
         }
 
         .input__wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
         }
 
@@ -290,7 +346,7 @@
 
         img {
             width: 5%;
-            margin-top: 1rem;
+            margin-top: 0;
         }
     }
 
@@ -298,7 +354,7 @@
     /*====================================================max-width: 320========================================*/
     @media (max-width: 320px) {
         button {
-            width: 58%;
+            width: 88%;
             height: 5%;
             border-radius: 10px;
             text-align: center;
@@ -309,8 +365,14 @@
         .footer {
             background-color: #000000;
             color: aliceblue;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             height: auto;
             padding-left: 0;
@@ -320,6 +382,7 @@
         div.title {
             font-size: 18px;
             font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 700;
         }
 
         div.title, small, img {
@@ -331,7 +394,11 @@
         }
 
         .input__wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
             padding-left: 7%;
             padding-top: 2%;
@@ -351,7 +418,7 @@
 
         }
     }
-
     /*====================================================max-width: 320========================================*/
 
 </style>
+

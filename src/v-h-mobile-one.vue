@@ -67,9 +67,17 @@
         text-align: left;
     }
     .main{
+        -ms-flex-pack: distribute;
         justify-content: space-around;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-left: 10%;
         position: relative;
@@ -77,11 +85,16 @@
     }
     .container {
         max-width: 414px;
-        background-image: url(./assets/img/bg-mob-001.png);
+        background-image: url(./assets/img/bg-mob-001.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         height: 277px;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(./assets/img/bg-mob-001.png);
+        }
     }
     /* =======================================min-width: 414px==================================*/
     @media (min-width: 415px) {
@@ -99,6 +112,5 @@
             text-align: left;
         }
     }
-
     /* =======================================min-width: 320px==================================*/
 </style>

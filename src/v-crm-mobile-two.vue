@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="fixed">
-            <img src="./assets/img/list.png" alt="" class="list" @click="openSlide">
+            <img src="./assets/img/list.png" alt="pic" class="list" @click="openSlide">
         </div>
         <div class="main">
             <p>development</p>
@@ -26,9 +26,9 @@
             </g>
         </svg>
         <div class="images">
-            <img src="./assets/img/one-crm.png" alt="" class="one-crm">
-            <img src="./assets/img/two-crm.png" alt="" class="two-crm">
-            <img src="./assets/img/three-crm.png" alt="" class="three-crm">
+            <img src="./assets/img/one-crm.png" alt="pic" class="one-crm">
+            <img src="./assets/img/two-crm.png" alt="pic" class="two-crm">
+            <img src="./assets/img/three-crm.png" alt="pic" class="three-crm">
         </div>
     </div>
 </template>
@@ -58,12 +58,18 @@
     }
 
     .images {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         padding-top: 5%;
     }
 
     .fixed {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
         margin-right: 2%;
     }
@@ -109,6 +115,8 @@
     /* =======================================max-width: 375px==================================*/
     @media (max-width: 375px) {
         .images {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             padding-top: 10%;
         }
@@ -127,6 +135,8 @@
     /* =======================================max-width: 320px==================================*/
     @media (max-width: 320px) {
         .images {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             padding-top: 15%;
         }

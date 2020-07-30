@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <div class="title">Зачем вашему<br>
-            бизнесу нужен сайт?</div>
+        <h1>Зачем вашему<br>
+            бизнесу нужен сайт?</h1>
         <h2>С развитием технологий весь поток<br>
             потенциальных клиентов перешел<br>
             в интернет. Можно предлагать свои<br>
@@ -16,7 +16,7 @@
             А так же в дальнейшем его продвижении<br>
             и обслуживании.</h2>
         <div class="icon">
-        <img src="./assets/img/mobile-monitor-one.png" alt="" class="monitor">
+            <img src="./assets/img/mobile-monitor-one.png" alt="pic" class="monitor">
             <img src="./assets/img/list.png" alt="" class="list" @click="openSlide">
         </div>
     </div>
@@ -34,9 +34,6 @@
 </script>
 
 <style scoped>
-    .monitor{
-
-    }
     .list{
         position: fixed;
     }
@@ -46,19 +43,29 @@
         background-size: cover;
         background-color: white;
         background-repeat: no-repeat;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
-    div.title{
+    h1{
         color: #000000;
         font-size: 23px;
         font-family: 'Montserrat', sans-serif;
         margin: 0;
+        -ms-flex-item-align: baseline;
         align-self: baseline;
         padding-left: 18%;
+        font-weight: 700;
     }
 
     h2{
@@ -91,13 +98,15 @@
     /* =======================================min-width: 360==================================*/
     @media (max-width: 360px) {
 
-        div.title{
+        h1{
             color: #000000;
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;
             margin: 0;
+            -ms-flex-item-align: baseline;
             align-self: baseline;
             padding-left: 10%;
+            font-weight: 700;
         }
         h2{
             font-size: 14px;
@@ -107,13 +116,15 @@
     /* =======================================min-width: 320==================================*/
     @media (max-width: 320px) {
 
-        div.title{
+        h1{
             color: #000000;
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;
             margin: 0;
+            -ms-flex-item-align: baseline;
             align-self: baseline;
             padding-left: 10%;
+            font-weight: 700;
         }
         h2{
             font-size: 13px;
@@ -123,9 +134,17 @@
             background-size: cover;
             background-color: white;
             background-repeat: no-repeat;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
         }
     }
